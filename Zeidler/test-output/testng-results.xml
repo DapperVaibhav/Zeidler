@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-02T08:58:21Z" name="Default suite" finished-at="2020-06-02T08:59:06Z" duration-ms="44369">
+    <groups>
+    </groups>
+    <test started-at="2020-06-02T08:58:21Z" name="Default test" finished-at="2020-06-02T08:59:06Z" duration-ms="44369">
+      <class name="zei.ZeidlerProject">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:zei.ZeidlerProject@279fedbd]" started-at="2020-06-02T08:58:21Z" name="beforeTest" finished-at="2020-06-02T08:58:40Z" duration-ms="18294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="AddComputer()[pri:0, instance:zei.ZeidlerProject@279fedbd]" started-at="2020-06-02T08:58:40Z" name="AddComputer" finished-at="2020-06-02T08:58:45Z" duration-ms="5536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddComputer -->
+        <test-method signature="FilterCompanyName()[pri:1, instance:zei.ZeidlerProject@279fedbd]" started-at="2020-06-02T08:58:45Z" name="FilterCompanyName" finished-at="2020-06-02T08:58:48Z" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterCompanyName -->
+        <test-method signature="UpdateCompanyName()[pri:2, instance:zei.ZeidlerProject@279fedbd]" started-at="2020-06-02T08:58:48Z" name="UpdateCompanyName" finished-at="2020-06-02T08:58:54Z" duration-ms="6138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateCompanyName -->
+        <test-method signature="Delete()[pri:3, instance:zei.ZeidlerProject@279fedbd]" started-at="2020-06-02T08:58:54Z" name="Delete" finished-at="2020-06-02T08:59:05Z" duration-ms="11284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:zei.ZeidlerProject@279fedbd]" started-at="2020-06-02T08:59:05Z" name="afterTest" finished-at="2020-06-02T08:59:06Z" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- zei.ZeidlerProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
