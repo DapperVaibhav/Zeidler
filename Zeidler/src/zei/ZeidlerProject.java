@@ -12,7 +12,7 @@ import org.testng.annotations.AfterTest;
 public class ZeidlerProject {
 	WebDriver driver;
 	
-  @Test(priority=0)  //Create
+  @Test(priority=0)  //Create Computer
   public void AddComputer() throws InterruptedException {
 	  driver.findElement(By.xpath("//a[@id='add']")).click();
 	  driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Vaibhav");
@@ -25,14 +25,14 @@ public class ZeidlerProject {
       driver.findElement(By.xpath("//input[@class='btn primary']")).click();
       Thread.sleep(2000);
   }
-      @Test(priority=1)  //Read
+      @Test(priority=1)  //Read Computer
       public void FilterCompanyName() throws InterruptedException {
       driver.findElement(By.xpath("//input[@id='searchbox']")).sendKeys("Vaibhav");
       driver.findElement(By.xpath("//input[@id='searchsubmit']")).click();
       Thread.sleep(2000);
       }
       
-      @Test(priority=2)  //Update
+      @Test(priority=2)  //Update Computer
       public void UpdateCompanyName() throws InterruptedException {
     	  driver.findElement(By.linkText("Vaibhav")).click();
           Thread.sleep(2000);
@@ -57,7 +57,7 @@ public class ZeidlerProject {
           
       }
       
-      @Test(priority=3)  //Delete
+      @Test(priority=3)  //Delete Computer
       public void Delete() throws InterruptedException {
       driver.findElement(By.xpath("//input[@id='searchbox']")).sendKeys("Vaibhav_New");
       driver.findElement(By.xpath("//input[@id='searchsubmit']")).click();
